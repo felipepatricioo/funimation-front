@@ -1,0 +1,73 @@
+#main {
+    background: #410099;
+    background: -webkit-linear-gradient(top, #410099 100px, black 950px);
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    
+}
+#headMain{
+    background-image: url("https://derf9v1xhwwx1.cloudfront.net/image/upload/q_60/cste/3729ae81-29b7-4b5e-9f0d-2e843c98726f.png") ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.mainTitle{
+    font-weight: 900 !important;
+    font-family: 'Open Sans', "Hiragino Sans", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 68px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.mainSpan {
+    font-weight: 900 !important;
+    font-family: 'Open Sans', "Hiragino Sans", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 100px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 auto 20px auto;
+    text-align: center
+}
+
+#watchNowButton{
+    padding: 15px;
+    width: 250px;
+}
+
+#funimationLogo2{
+    padding: 50px;
+}
+.innerText{
+    font-size: 24px;
+}
+
+.bottomMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.bottomMain2 {
+    background-image: url("https://derf9v1xhwwx1.cloudfront.net/image/upload/q_60/cste/3729ae81-29b7-4b5e-9f0d-2e843c98726f.png") ;
+    background-size: cover;
+}
+
+.animesShowcase{
+    padding-left: 80px;
+}

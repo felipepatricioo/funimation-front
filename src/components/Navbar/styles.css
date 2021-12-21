@@ -1,0 +1,70 @@
+ #navBar {
+    justify-content: space-between;
+    display: flex;
+    color: #410099;
+    font-weight: bolder;
+    padding: 0.6rem 0.6rem;
+    
+  }
+
+  /* a{
+    text-decoration: none;
+    transition: 0.3s;
+  } */
+  
+  .list  {
+    list-style: none;
+    display: flex;
+  }
+
+  #navBar li:hover {
+    color: red;
+  }
+
+  nav ul li {
+    padding: 1rem;
+  }
+
+  #funimationLogo{
+      padding: 15px;
+  }
+
+  .listItems2{
+      display: flex;
+  }
+
+#buttonPremium{
+  color: black;
+  font-weight: bold;
+  transition: 0.5s
+}
+#buttonPremium:hover{
+  transform: scale(1.3);
+}
+.listItems3{ 
+  display: flex;
+}
+
+#userLogo {
+  max-width: 21px;
+  max-height: 21px;
+}
+
+.navIcons {
+  max-height: 21px;
+  max-width: 21px;
+}
+
+.accountOptions{
+    background: #ffffff;
+    display: none;
+    padding: 0px 10px 0px 20px;
+    position: absolute;
+    right: 12px;
+    top: 32px;
+    z-index: 10;
+}
+
+.navigation{
+  display: flex;
+}

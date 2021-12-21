@@ -1,0 +1,12 @@
+#frontPageCard2{
+    border-radius: 25px;
+    max-width: 450px;
+    max-height: 700px;
+    padding: 10px;
+    transition: 0.2s
+
+}
+
+#frontPageCard2:hover{
+    transform: scale(1.01);
+}

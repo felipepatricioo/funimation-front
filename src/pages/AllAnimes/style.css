@@ -1,0 +1,11 @@
+#main {
+    background: #410099;
+    background: -webkit-linear-gradient(top, #410099 100px, black 950px);
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+}
+
+.card{
+    margin-top: 500px;
+}
