@@ -26,7 +26,7 @@ export default function CreateUser() {
       localStorage.setItem("token", token);
     });
 
-
+    navigate("/")
   };
 
   return (
