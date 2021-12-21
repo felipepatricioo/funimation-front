@@ -25,7 +25,7 @@ const Navbar = () => {
     setNavbar(
       <ul className="list">
         <li>
-          <a href="/">
+          <a href="/"> 
             <img
               src="https://static.funimation.com/static/img/icons/icon-search.svg"
               alt="search icon"
