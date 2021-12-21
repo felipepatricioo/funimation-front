@@ -22,10 +22,11 @@ export default function CreateUser() {
 
     axios.post("/user/create", createUser).then((response) => {
       const token = response.data.token;
+      console.log(response);
       localStorage.setItem("token", token);
     });
 
-    navigate("/");
+
   };
 
   return (

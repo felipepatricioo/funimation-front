@@ -6,6 +6,7 @@ import Login from "./pages/Login/index";
 import AllAnimes from './pages/AllAnimes/index';
 import CreateUser from "./pages/CreateUser/index";
 import Anime from './pages/Anime/index';
+import Profile from "./pages/Profile/index";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<CreateUser />} />
         <Route path="/allanimes" element={<AllAnimes />} />
         <Route path="/anime/:id" element={<Anime />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </>

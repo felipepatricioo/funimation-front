@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const token = localStorage.getItem("token");
 
-  let navBar = (
+  const [ navBar, setNavbar] = useState((
     <ul className="list">
       <Link to="/login">
         <li>ENTRAR</li>
@@ -19,12 +19,10 @@ const Navbar = () => {
         </a>
       </li>
     </ul>
-  );
-
+  ))
 
   if (token) {
-    
-    navBar = (
+    setNavbar(
       <ul className="list">
         <li>
           <a href="/">
@@ -66,6 +64,8 @@ const Navbar = () => {
       </ul>
     );
   }
+
+
 
   return (
     <header>

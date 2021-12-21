@@ -23,7 +23,7 @@ export default function Login() {
       localStorage.setItem("token", token);
     });
 
-    navigate("/");
+    navigate("/profile");
   };
 
   return (

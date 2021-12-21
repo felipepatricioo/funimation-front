@@ -17,7 +17,25 @@ export default function Anime () {
         )
     }
 
-    console.log(anime)
+    const [ user, setUser ] = useState([]);
+
+    const getUser = async () => {
+        await axios.get('/user')
+        .then( response => setUser(response.data))
+    }
+
+
+    console.log(user)
+    // const animeUser = {
+    //     user: user.id,
+    //     id: anime.id,
+    // };
+  
+    // const watchedAnime = async () => {
+    //     await axios.patch(`/user/watchedAnimes/${id}`, animeUser)
+    //     .then (response => console.log(response.data))
+        
+    // }
 
     useEffect(() => {
         getAnimeById()
@@ -27,6 +45,8 @@ export default function Anime () {
         <div>
             <p>{anime.title}</p>
             <img src={anime.cover} alt={anime.title}/>
+            <h2> SINGLE ANIME PAGE STILL IN MAINTENANCE!! </h2>
+            <button onClick={getUser}>Add anime to watchlist</button>
         </div>
     )
 }
